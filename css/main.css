@@ -11,7 +11,13 @@ h1, h2, h3 {
 
 .nav {
   list-style-type: none;
-  color: #8f2440;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a{
+    color: #8f2440;
+    text-decoration: none;
 }
 
 ul {
