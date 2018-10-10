@@ -1,5 +1,19 @@
 body {
   background-color: #c9b5ab;
-  font-family: 'PT Sans', sans-serif;
   font-family: 'PT Serif', serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #3f1622;
+}
+
+.nav {
+  list-style-type: none;
+  color: #8f2440;
+}
+
+ul {
+  list-style-type: circle;
 }
