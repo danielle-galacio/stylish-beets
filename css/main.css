@@ -12,11 +12,16 @@ body {
 h1, h2, h3 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 .nav {
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
@@ -59,4 +64,12 @@ blockquote {
 
 cite {
   font-size: .8rem;
+}
+
+.commonvarieties {
+  list-style-type: lower-greek;
+}
+
+dl dt {
+  font-weight: bold;
 }
