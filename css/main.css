@@ -1,11 +1,16 @@
+html {
+  color: #222;
+}
+
 body {
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
   line-height: 1.5;
 }
 
 h1, h2, h3 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
@@ -15,11 +20,43 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
-.nav a{
-    color: #8f2440;
-    text-decoration: none;
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 ul {
   list-style-type: circle;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  text-indent: .8em;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.firstline {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+cite {
+  font-size: .8rem;
 }
