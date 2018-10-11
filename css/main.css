@@ -1,18 +1,18 @@
 html {
   color: #222;
+  line-height: 1.5;
 }
 
 body {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   font-weight: normal;
-  line-height: 1.5;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h1 {
 
 .nav {
   list-style-type: none;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -46,7 +47,7 @@ img {
 }
 
 figure {
-  text-indent: .8em;
+  text-indent: .2em;
 }
 
 figcaption {
